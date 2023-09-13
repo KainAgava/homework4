@@ -12,20 +12,14 @@ namespace homeWork4
     {
         static void Main(string[] args)
         {
-            
             string name = "Петров";
             string surname = "Пётр";
-           
-           string correctName = surname;
-           string correctSurname = name;
 
-             name = correctName;
-             surname = correctSurname;
+            string correctName = "Пётр";
+            surname = name;
+            name = correctName;
 
-                            Console.WriteLine($"Имя: " + name + " Фамилия:" + surname + ""); 
-               
-           
-
+            Console.WriteLine($"Имя: " + name + " Фамилия:" + surname + "");
         }
 
     }
