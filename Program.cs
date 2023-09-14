@@ -11,11 +11,11 @@ namespace homeWork4
     internal class Program
     {
         static void Main(string[] args)
-        {
+ {
             string name = "Петров";
             string surname = "Пётр";
 
-            string correctName = "Пётр";
+            string correctName = surname;
             surname = name;
             name = correctName;
 
